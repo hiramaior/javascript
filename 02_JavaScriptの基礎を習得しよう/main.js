@@ -8,5 +8,8 @@ let j = 10;
 let ans1 = i + j;
 console.log(ans1);
 
+let x = 10;
+let y = 20;
+
 let ans7 = Math.pow(x, y);
 console.log(ans7);
