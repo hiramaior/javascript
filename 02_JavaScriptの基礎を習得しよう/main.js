@@ -1,7 +1,8 @@
 'use strict';
-let x = 1;
-let y = 2;
-let z = 3;
+let lastName = 'なかむら';
+let firstName = 'ゆうた';
+let message1 = 'こんにちは' + lastName + '' + firstName + ' さん';
+console.log(message1);
 
-let ans1 = x + y * z;
-console.log(ans1);
+let message2 = `こんにちは ${lastName} ${firstName} さん`;
+console.log(message2);
